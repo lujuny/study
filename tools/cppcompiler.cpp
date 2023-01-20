@@ -24,7 +24,7 @@ int main(int argc, char **argv)
 
             size_t len = filename.size();
             string outputname = filename.substr(0, len - 4);
-            sprintf(command, "g++ -std=c++14 %s -o %s", filename.c_str(), outputname.c_str());
+            sprintf(command, "g++ -std=c++14 %s -o ./bin/%s", filename.c_str(), outputname.c_str());
             system(command);
             printf("[%d]/[%d] file finished.\n", i, argc - 1);
             

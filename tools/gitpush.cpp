@@ -32,6 +32,5 @@ int main(int argc,char** argv){
     system("git push");
     system("rm -rf gitpush.exe");
     
-    
     return 0;
 }
