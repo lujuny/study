@@ -36,6 +36,6 @@
   ```
 </details>
 
-## Rules
+### Rules
 1. Have an **empty line** after the `</summary>` tag or markdown/code blocks will not render.
 1. Have an **empty line** after each `</details>` tag if you have multiple collapsible sections.
