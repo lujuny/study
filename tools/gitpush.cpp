@@ -22,7 +22,7 @@ int main(int argc,char** argv){
     string comment;
     char buffer[10010];
 
-    system("git add ../../.");
+    system("git add ../.");
 
     printf("input comment:\n");
     comment = get_comment();

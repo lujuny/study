@@ -16,7 +16,7 @@ int main(int argc, char **argv)
     {
         char command[110];
         printf("%d files to be compiled...\n", argc - 1);
-
+        auto starttime = chrono::steady_clock::now();
         for (int i = 1; i < argc; i++)
         {
             printf("compiling [%d] file...please wait\n", i);
@@ -29,8 +29,10 @@ int main(int argc, char **argv)
             printf("[%d]/[%d] file finished.\n", i, argc - 1);
             
         }
-        
-    }
+        auto endtime = chrono::steady_clock::now();
+        auto timeused = chrono::duration_cast<chrono::duration<double> >(endtime - starttime);
+        cout << "compiled " << argc << "files " << "after " << timeused.count() << "seconds" << endl;
+    }   
     catch (const std::exception &e)
     {
         std::cerr << e.what() << '\n';
