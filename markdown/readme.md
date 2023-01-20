@@ -4,7 +4,7 @@
     
     sample:
 
-    ## How to
+## How to
     ````md
     <details>
     <summary>Click me</summary>
