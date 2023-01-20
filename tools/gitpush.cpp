@@ -27,8 +27,11 @@ int main(int argc,char** argv){
     comment = get_comment();
     
     sprintf(buffer, "git commit -m \"%s\"", comment.c_str());
-    printf("%s\n", buffer);
+    // printf("%s\n", buffer);
     system(buffer);
     system("git push");
+    system("rm -rf gitpush.exe");
+    
+    
     return 0;
 }
