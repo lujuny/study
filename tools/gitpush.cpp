@@ -23,7 +23,7 @@ int main(int argc, char **argv)
     cin.tie(0);
     string comment, default_comment = "update file";
     char buffer[10010], add_comment;
-    system("tree ../. > catalog.md");
+    system("tree -d ../. > catalog.md");
     system("git add ../.");
     
     printf("input comment:\n");
