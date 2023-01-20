@@ -21,7 +21,6 @@ string get_comment(){
 int main(int argc,char** argv){
     cin.tie(0);
     string comment = get_comment();
-    cout << comment << endl;
 
     return 0;
 }

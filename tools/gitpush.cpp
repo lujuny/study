@@ -25,16 +25,11 @@ int main(int argc, char **argv)
     char buffer[10010], add_comment;
 
     system("git add ../.");
-    printf("add comment?y/n\n");
-    cin >> add_comment;
-    if (add_comment == 'y' || add_comment == 'Y')
-    {
-        printf("input comment:\n");
-        comment = get_comment();
-    }
-    else {
-        comment = default_comment;
-    }
+    
+    printf("input comment:\n");
+    comment = get_comment();
+    
+    
     sprintf(buffer, "git commit -m \"%s\"", comment.c_str());
     // printf("%s\n", buffer);
     system(buffer);
