@@ -3,18 +3,19 @@ import sys
 import re
 
 def modify(filename):
-    file = open(
+    infile = open(
         file=filename, 
-        mode="rw"
+        mode="r"
         )
-    lines = file.readlines()
-    for line in lines:
-        line.replace('`', '\`')
+    lines = infile.readlines()
+    infile.close()
+    outfile = open(filename, "w")
     
-    file.close()
+    for line in lines:
+        newline = line.replace('`', '\`')
 
 if __name__ == "__main__":
-    filenames = sys.argv
+    filenames = sys.argv[1:]
     for filename in filenames:
         modify(filename=filename)
     
