@@ -31,7 +31,7 @@ int main(int argc, char **argv)
         }
         auto endtime = chrono::steady_clock::now();
         auto timeused = chrono::duration_cast<chrono::duration<double> >(endtime - starttime);
-        cout << "compiled " << argc << "files " << "after " << timeused.count() << "seconds" << endl;
+        cout << "compiled " << argc - 1 << "files " << "after " << timeused.count() << "seconds" << endl;
     }   
     catch (const std::exception &e)
     {
