@@ -30,7 +30,7 @@ int main(int argc,char** argv){
     // printf("%s\n", buffer);
     system(buffer);
     system("git push");
-    system("rm -rf gitpush.exe");
+    // system("rm -rf gitpush.exe");
     
     return 0;
 }
