@@ -7,7 +7,10 @@
  */
 #include <bits/stdc++.h>
 using namespace std;
-
+inline void update_catalog(){
+    system("tree -d ../. > ../catalog.md");
+    system("python modifycatalog.py ../catalog.md");
+}
 string get_comment()
 {
     string tmp, buffer;
@@ -23,12 +26,12 @@ int main(int argc, char **argv)
     cin.tie(0);
     string comment, default_comment = "update file";
     char buffer[10010], add_comment;
-    system("tree -d ../. > catalog.md");
+    //update catalog tree:-)
+
     system("git add ../.");
     
     printf("input comment:\n");
     comment = get_comment();
-    
     
     sprintf(buffer, "git commit -m \"%s\"", comment.c_str());
     // printf("%s\n", buffer);

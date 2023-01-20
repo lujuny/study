@@ -13,9 +13,13 @@ def modify(filename):
     
     for line in lines:
         newline = line.replace('`', '\`')
+        outfile.write(newline)
+        
+    outfile.close()
 
 if __name__ == "__main__":
     filenames = sys.argv[1:]
+    print(filenames)
     for filename in filenames:
         modify(filename=filename)
     
