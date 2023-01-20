@@ -6,7 +6,6 @@ ifile = open("../catalog.md", mode="r")
 lines = ifile.readlines()
 ifile.close()
 
-
 ofile = open("../catalog.md", mode="w")
 
 for line in lines :
