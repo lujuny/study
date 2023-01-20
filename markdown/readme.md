@@ -24,23 +24,23 @@
     </details>
     ````
 
-    ## Example
-    <details>
-        <summary>Click me</summary>
+## Example
+<details>
+    <summary>Click me</summary>
 
-    ### Heading
-    1. Foo
-    2. Bar
-        * Baz
-        * Qux
-        
-    ### Some Code
-    ```js
-    function logSomething(something) {
-        console.log('Something', something);
-    }
-    ```
-    </details>
+### Heading
+1. Foo
+2. Bar
+    * Baz
+    * Qux
+    
+### Some Code
+```js
+function logSomething(something) {
+    console.log('Something', something);
+}
+```
+</details>
 
 ## Rules
 1. Have an **empty line** after the `</summary>` tag or markdown/code blocks will not render.
