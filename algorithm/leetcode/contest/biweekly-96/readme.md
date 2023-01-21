@@ -1,6 +1,6 @@
 
 <details>
-    <summary>[Minimum Common Value](https://leetcode.cn/contest/biweekly-contest-96/problems/minimum-common-value/)</summary>
+    <summary>[Minimum_Common_Value](https://leetcode.cn/contest/biweekly-contest-96/problems/minimum-common-value/)</summary>
 
 > My solution is traverse array1,and record time each element appear. Then traverse array2, find the ans according to the record.
 ```cpp
@@ -25,7 +25,7 @@ public:
 </details>
 
 <details>
-    <summary>[Minimum Operations to Make Array Equal II](https://leetcode.cn/contest/biweekly-contest-96/problems/minimum-operations-to-make-array-equal-ii/)</summary>
+    <summary>[Minimum_Operations_to Make_Array_Equal_II](https://leetcode.cn/contest/biweekly-contest-96/problems/minimum-operations-to-make-array-equal-ii/)</summary>
 
 > I failed in the other three problems, the note below was 
 
