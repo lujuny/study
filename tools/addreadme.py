@@ -6,7 +6,7 @@ path = ".."
 common_file_name = "readme.md"
 path = os.path.abspath(path)
 paths = []
-exclude = [".git", ".vscode", "tools"]
+exclude = [".git", ".vscode", "tools", "loginfo"]
 def travel(rootpath):
     for root, dirs, files in os.walk(rootpath):
         dirs[:] = [d for d in dirs if d not in exclude]
