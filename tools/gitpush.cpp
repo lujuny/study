@@ -27,10 +27,10 @@ int main(int argc, char **argv)
     string comment, default_comment = "update file";
     char buffer[10010], add_comment;
     //update catalog tree:-)
+    update_catalog();
 
     system("git add ../.");
-    
-    printf("input comment:\n");
+    printf("input comment(less than 10010 char):\n");
     comment = get_comment();
     
     sprintf(buffer, "git commit -m \"%s\"", comment.c_str());
