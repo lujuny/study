@@ -1,7 +1,7 @@
 <details>
     <summary>fold</summary>
 
-## How to
+## How to fold part of content
 
 ````md
 <details>
@@ -14,10 +14,10 @@
     * Qux
 
 ### Some Code
-``js     
+``js   
 
-function logSomething(something) {         
-    console.log('Something', something);     
+function logSomething(something) {       
+    console.log('Something', something);   
 }
 ``
     </details>

@@ -12,7 +12,7 @@ def modify(filename):
     outfile = open(filename, "w")
     
     for line in lines:
-        newline = line.replace('`', '\`')
+        newline = line.replace('`', '\\`')
         outfile.write(newline)
         
     outfile.close()
@@ -20,6 +20,7 @@ def modify(filename):
 if __name__ == "__main__":
     filenames = sys.argv[1:]
     print(filenames)
+    # pass
     for filename in filenames:
         modify(filename=filename)
     
