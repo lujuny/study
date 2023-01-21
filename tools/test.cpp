@@ -21,6 +21,6 @@ string get_comment(){
 int main(int argc,char** argv){
     cin.tie(0);
     system("python test.py");    
-
+    
     return 0;
 }

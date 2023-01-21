@@ -1,27 +1,57 @@
 <details>
+    <summary>md simple note</summary>
+
+# head
+
+## head
+
+### head
+
+- unordered list
+- unordered list
+- unordered list
+
+1. ordered list
+2. ordered list
+3. ordered list
+
+[link](https://www.google.com)
+
+**highlight**
+*Itali*
+
+> block test
+
+
+</details>
+
+<details>
     <summary>fold</summary>
 
 ## How to fold part of content
 
-````md
+```md
 <details>
 <summary>Click me </summary>
 
 ### Heading
+
 1. Foo
 2. Bar
-    * Baz
-    * Qux
+   - Baz
+   - Qux
 
 ### Some Code
-``js   
 
-function logSomething(something) {       
-    console.log('Something', something);   
+``js
+
+function logSomething(something) {  
+ console.log('Something', something);  
 }
 ``
-    </details>
-````
+
+</details>
+```
 
 ## Example
 
@@ -32,14 +62,14 @@ function logSomething(something) {
 
 1. Foo
 2. Bar
-   * Baz
-   * Qux
+   - Baz
+   - Qux
 
 ### Some Code
 
 ```js
 function logSomething(something) {
-    console.log('Something', something);
+  console.log("Something", something);
 }
 ```
 
@@ -48,9 +78,7 @@ function logSomething(something) {
 ## You can use this in vscode by configuring your markdown.json like this below:
 
 ```json
-
 {
-
   "markdown snippet": {
     "prefix": "foldable", //key word to activate this snippet
     "body": [
@@ -71,7 +99,4 @@ function logSomething(something) {
 1. Have an **empty line** after the `</summary>` tag or markdown/code blocks will not render.
 2. Have an **empty line** after each `</details>` tag if you have multiple collapsible sections.
 
-[Citation](https://gist.github.com/pierrejoubert73/902cc94d79424356a8d20be2b382e1ab)
-
 </details>
-
