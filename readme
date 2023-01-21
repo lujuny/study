@@ -6,7 +6,7 @@
 ## if you want to upload file please tag format like this
 <tag>/<tag>/.../<tag>/readme.md
 
-# for example: like file: ./math/linear-algebra/readme.md, you may tag like this math/linear-algebra/readme.md
+# for example: like file: ./math/linear-algebra/readme.md, you may tag like this-> math/linear-algebra/readme.md
 
 ### inside readme.md please put each sections or subsections like this:
 ``md
