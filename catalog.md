@@ -81,6 +81,7 @@
 |-- env-setup
 |   |-- build-lib
 |   `-- orb-slam
+|-- loginfo
 |-- markdown
 |-- math
 |   |-- linear-algebra
@@ -95,5 +96,5 @@
 `-- tools
     `-- bin
 
-94 directories
+95 directories
  ```` 
