@@ -3,18 +3,25 @@
 
 ## How to
 
-    ````md`<details>`
-    `<summary>`Click me `</summary>`
+````md
+<details>
+<summary>Click me </summary>
 
-    ### Heading
-    1. Foo
-    2. Bar
-        * Baz
-        * Qux
+### Heading
+1. Foo
+2. Bar
+    * Baz
+    * Qux
 
-    ### Some Code``js     function logSomething(something) {         console.log('Something', something);     }     ``
-    `</details>`
-    ````
+### Some Code
+``js     
+
+function logSomething(something) {         
+    console.log('Something', something);     
+}
+``
+    </details>
+````
 
 ## Example
 

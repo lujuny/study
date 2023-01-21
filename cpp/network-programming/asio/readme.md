@@ -1,10 +1,11 @@
 ## most of the content come from [boost doc](https://www.boost.org/doc/libs/1_68_0/doc/html/boost_asio/examples.html)
 
+<details>
+<summary>multi cast</summary>
 
-* multi cast:
   - sender part
 
-    ```cpp
+    ````cpp
 
     class sender
     {
@@ -54,10 +55,10 @@
       std::string message_;
     };
 
-    ```
+    ````
   * receiver
 
-    ```cpp
+    ````cpp
     class receiver
     {
     public:
@@ -102,5 +103,7 @@
       std::array<char, 1024> data_;
     };
 
-    ```
+    ````
 </details>
+
+
