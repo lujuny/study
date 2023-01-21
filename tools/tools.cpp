@@ -5,6 +5,17 @@
  *Author: tabbleman
  *
  */
+
+/**
+ * @file tools.cpp
+ * @author your name (you at domain [dot] com)
+ * @brief this file is made for manage my study note:-)
+ * @version 0.1
+ * @date 2023-01-21
+ * 
+ * @copyright Copyright (c) 2023
+ * 
+ */
 #include <bits/stdc++.h>
 
 using namespace std;
