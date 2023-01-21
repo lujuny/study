@@ -71,7 +71,7 @@ function logSomething(something) {
 1. Have an **empty line** after the `</summary>` tag or markdown/code blocks will not render.
 2. Have an **empty line** after each `</details>` tag if you have multiple collapsible sections.
 
-[citation](https://gist.github.com/pierrejoubert73/902cc94d79424356a8d20be2b382e1ab)
+[Citation](https://gist.github.com/pierrejoubert73/902cc94d79424356a8d20be2b382e1ab)
 
 </details>
 
