@@ -8,11 +8,9 @@
 #include <bits/stdc++.h>
 using namespace std;
 inline void update_catalog(){
-    system("echo \" \\`\\`\\`\\`md\n \" ");
-    // system("tree -d ../. >> ../catalog.md");
-    // system("echo \"\\`\\`\\`\\`\n\"");
-
-    // system("python modifycatalog.py ../catalog.md");
+    system("echo ````md > ../catalog.md");
+    system("tree -d ../. >> ../catalog.md");
+    system("echo  ```` >> ../catalog.md");
 }
 string get_comment()
 {
@@ -31,7 +29,6 @@ int main(int argc, char **argv)
     char buffer[10010], add_comment;
     //update catalog tree:-)
     update_catalog();
-
     system("git add ../.");
     printf("input comment(less than 10010 char):\n");
     comment = get_comment();
