@@ -45,6 +45,27 @@ function logSomething(something) {
 
 </details>
 
+## You can use this in vscode by configureing your markdown.json like this below:
+
+```json
+
+{
+
+  "markdown snippet": {
+    "prefix": "foldable", //key word to activate this snippet
+    "body": [
+      "<details>",
+      "    <summary>$1</summary>",
+      "",
+      "$2",
+      "</details>",
+      ""
+    ],
+    "description": "foldable content"
+  }
+}
+```
+
 ## Rules
 
 1. Have an **empty line** after the `</summary>` tag or markdown/code blocks will not render.
@@ -53,3 +74,4 @@ function logSomething(something) {
 [citation](https://gist.github.com/pierrejoubert73/902cc94d79424356a8d20be2b382e1ab)
 
 </details>
+
