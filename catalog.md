@@ -67,7 +67,8 @@
 |   |           |-- 6
 |   |           `-- 8
 |   |-- leetcode
-|   |   `-- biweekly-96
+|   |   `-- contest
+|   |       `-- biweekly-96
 |   `-- zoj
 |       `-- pat
 |           |-- advance
@@ -92,5 +93,5 @@
 `-- tools
     `-- bin
 
-91 directories
+92 directories
  ```` 
