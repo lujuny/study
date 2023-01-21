@@ -45,7 +45,7 @@ function logSomething(something) {
 
 </details>
 
-## You can use this in vscode by configureing your markdown.json like this below:
+## You can use this in vscode by configuring your markdown.json like this below:
 
 ```json
 
