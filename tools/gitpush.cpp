@@ -8,9 +8,9 @@
 #include <bits/stdc++.h>
 using namespace std;
 inline void update_catalog(){
-    system("echo \"\\`\\`\\`\\`md\n\" > ../catalog.md");
+    system("echo \"\\`\\`\\`\\`md\n\" ");
     system("tree -d ../. >> ../catalog.md");
-    system("echo \"\\`\\`\\`\\`\n\" >> ../catalog.md\"");
+    system("echo \"\\`\\`\\`\\`\n\"");
 
     system("python modifycatalog.py ../catalog.md");
 }
