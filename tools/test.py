@@ -3,6 +3,24 @@ import os
 import sys
 #open file
 path = ".."
-for root, d_path, f_path in os.walk(path):
-    print(f"{root}===={d_path}\n")
-
+common_file_name = "readme.md"
+path = os.path.abspath(path)
+paths = []
+exclude = [".git", ".vscode", "tools"]
+def travel(rootpath):
+    for root, dirs, files in os.walk(rootpath):
+        dirs[:] = [d for d in dirs if d not in exclude]
+        for dir in dirs:
+            paths.append(os.path.join(root, dir))
+    
+    
+if __name__ == "__main__":
+    travel(path)
+    for i in paths:
+        readmefile = os.path.join(i, common_file_name)
+        if os.path.exists(readmefile) :
+            print(readmefile + " Exists!")
+        else:
+            file = open(readmefile, "w+")
+            file.close()
+            print(readmefile + " Not exists!")
