@@ -94,8 +94,12 @@
 |       |-- class4
 |       |-- class5
 |       `-- class6
-`-- tools
-    `-- bin
+|-- tools
+|   `-- bin
+`-- tutorial
+    |-- cmake
+    |-- git
+    `-- latex
 
-96 directories
+100 directories
  ```` 
