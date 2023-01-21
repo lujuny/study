@@ -83,6 +83,8 @@
 |   `-- orb-slam
 |-- markdown
 |-- math
+|   |-- linear-algebra
+|   `-- statistics
 |-- tf-note
 |   |-- class1
 |   |-- class2
@@ -93,5 +95,5 @@
 `-- tools
     `-- bin
 
-92 directories
+94 directories
  ```` 
