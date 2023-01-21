@@ -12,10 +12,10 @@
 ``md
 <details>
 <summary>
-title of the section
+<title of the section>
 </summary>
 
-content of this section
+<content of this section>
 </details>
 
 ``
