@@ -6,14 +6,15 @@
  *
  */
 #include <bits/stdc++.h>
+
 using namespace std;
 
 inline void show_usage()
 {
     printf("Usage:\n"
-           "-p git push\n"
-           "-a add readme file\n"
-           "-c <src> <dst>copy other folder's structure\n");
+           "\t-p git push\n"
+           "\t-a add readme file\n"
+           "\t-c <src> <dst>copy other folder's structure\n");
     return;
 }
 int main(int argc, char **argv)
@@ -26,13 +27,10 @@ int main(int argc, char **argv)
     }
     for (int i = 1; i < argc; i++)
     {
-        printf("%c\n", argv[i][1]);
         switch (argv[i][1])
         {
-
         case 'p':
-
-            system("./bin/gitpush");
+            system("C:/Users/chemzhh/Documents/study/study/tools/bin/gitpush");
             break;
         case 'a':
             system("python addreadme.py");

@@ -12,7 +12,7 @@ inline void update_catalog(){
     system("tree -d ../. >> ../catalog.md");
     system("echo  ```` >> ../catalog.md");
 }
-string get_comment()
+inline string get_comment()
 {
     string tmp, buffer;
     while (getline(cin, buffer) && buffer.size())
@@ -22,9 +22,8 @@ string get_comment()
     }
     return tmp;
 }
-int main(int argc, char **argv)
-{
-    cin.tie(0);
+
+inline void gitpush(){
     string comment, default_comment = "update file";
     char buffer[10010], add_comment;
     //update catalog tree:-)
@@ -37,7 +36,11 @@ int main(int argc, char **argv)
     // printf("%s\n", buffer);
     system(buffer);
     system("git push");
-    // system("rm -rf gitpush.exe");
+}
+int main(int argc, char **argv)
+{
+    cin.tie(0);
+    gitpush();
 
     return 0;
 }
