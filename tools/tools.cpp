@@ -30,8 +30,9 @@ int main(int argc, char **argv)
         switch (argv[i][1])
         {
         case 'p':
-            system("C:/Users/chemzhh/Documents/study/study/tools/bin/gitpush");
+            system("C:/Users/chemzhh/Documents/study/study/tools/bin/gitpush.exe");
             break;
+            
         case 'a':
             system("python addreadme.py");
             break;
