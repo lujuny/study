@@ -2,7 +2,7 @@
 <details>
 <summary> 
 
-[Minimum_Common_Value](https://leetcode.cn/contest/biweekly-contest-96/problems/minimum-common-value/)
+[Minimum Common Value](https://leetcode.cn/contest/biweekly-contest-96/problems/minimum-common-value/)
 
 </summary>
 
@@ -29,9 +29,15 @@ public:
 </details>
 
 <details>
-    <summary>[Minimum_Operations_to Make_Array_Equal_II](https://leetcode.cn/contest/biweekly-contest-96/problems/minimum-operations-to-make-array-equal-ii/)</summary>
+<summary>
 
-> I failed in the other three problems, the note below was 
+[Minimum Operations to MakeArray_Equal_II](https://leetcode.cn/contest/biweekly-contest-96/problems/minimum-operations-to-make-array-equal-ii/)
+
+</summary>
+
+> I failed in the other three problems, the note below was learned from other blogs
+
+
 
 </details>
 
