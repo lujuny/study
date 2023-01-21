@@ -86,15 +86,16 @@
 |-- math
 |   |-- linear-algebra
 |   `-- statistics
-|-- tf-note
-|   |-- class1
-|   |-- class2
-|   |-- class3
-|   |-- class4
-|   |-- class5
-|   `-- class6
+|-- python
+|   `-- tf-note
+|       |-- class1
+|       |-- class2
+|       |-- class3
+|       |-- class4
+|       |-- class5
+|       `-- class6
 `-- tools
     `-- bin
 
-95 directories
+96 directories
  ```` 
