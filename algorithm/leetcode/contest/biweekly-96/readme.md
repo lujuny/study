@@ -1,6 +1,8 @@
 
 <details>
-    <summary>[Minimum_Common_Value](https://leetcode.cn/contest/biweekly-contest-96/problems/minimum-common-value/)</summary>
+    <summary> 
+    [Minimum_Common_Value](https://leetcode.cn/contest/biweekly-contest-96/problems/minimum-common-value/)
+    </summary>
 
 > My solution is traverse array1,and record time each element appear. Then traverse array2, find the ans according to the record.
 ```cpp
