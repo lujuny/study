@@ -41,3 +41,14 @@ public:
 
 </details>
 
+
+<details>
+<summary>
+
+[Maximum Subsequence Score](https://leetcode.cn/contest/biweekly-contest-96/problems/maximum-subsequence-score/)
+
+
+</summary>
+
+
+</details>
