@@ -75,5 +75,9 @@ public:
 
 </summary>
 
+> The idea is to consider for each element of array of nums2[i] as minimum once and check for maximum possible values available in nums1 keeping in mind nums2[i] as minimum .
+    
+
+[Citation](https://leetcode.com/problems/maximum-subsequence-score/solutions/3082737/c-easiest-solution-using-priority-queue-with-explanation/)
 
 </details>
