@@ -87,6 +87,7 @@
 |   |-- linear-algebra
 |   `-- statistics
 |-- python
+|   |-- django
 |   `-- tf-note
 |       |-- class1
 |       |-- class2
@@ -101,5 +102,5 @@
     |-- git
     `-- latex
 
-100 directories
+101 directories
  ```` 
