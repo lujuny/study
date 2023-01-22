@@ -52,6 +52,9 @@ $a = b$
 
 ![image test](../images/slam-framework.png)
 
+I can finally see that your right there beside me.[^1]
+
+[^1]: meteor shower --owl city
 </details>
 
 <details>

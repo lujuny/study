@@ -76,8 +76,45 @@ public:
 </summary>
 
 > The idea is to consider for each element of array of nums2[i] as minimum once and check for maximum possible values available in nums1 keeping in mind nums2[i] as minimum .
+
+```cpp
+class Solution {
+    public:
+        using pii = pair<int, int>;
+        long long maxScore(vector<int>& nums1, vector<int>& nums2, int k) {
+            vector<pii> p;
+            int n = nums1.size();
+            
+            for(int i = 0; i < n; i ++){
+                p.push_back(make_pair(nums2[i], nums1[i]));
+            }
+            sort(p.begin(), p.end());
+            reverse(p.begin(), p.end());
+
+            ll ans = 0, sum = 0;
+            priority_queue<int> pq;
+            for(int i = 0; i < k - 1; i ++){
+                sum += p[i].second;
+                pq.push(-p[i].second);
+            }
+
+            for(int i = k - 1; i < n; i ++){
+                sum += p[i].second;
+                pq.push(-p[i].second);
+
+                ans = max(ans, sum * p[i].first);
+                sum += pq.top();
+                pq.pop();
+            }
+            return ans;
+
     
+        }
+};
+
+```
 
 [Citation](https://leetcode.com/problems/maximum-subsequence-score/solutions/3082737/c-easiest-solution-using-priority-queue-with-explanation/)
+
 
 </details>
