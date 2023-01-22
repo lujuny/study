@@ -24,6 +24,7 @@ inline void show_usage()
 {
     printf("Usage:\n"
            "\t-p git push\n"
+           "\t-u git pull\n"
            "\t-a add readme file\n"
            "\t-c <src> <dst>copy other folder's structure\n");
     return;
@@ -49,6 +50,10 @@ int main(int argc, char **argv)
             break;
         case 'c':
             printf("to be continue...\n");
+            break;
+        case 'u':
+            //update from git repos
+            system("git pull");
             break;
         default:
             break;
