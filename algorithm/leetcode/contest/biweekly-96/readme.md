@@ -35,7 +35,7 @@ public:
 
 </summary>
 
-> I failed in the other three problems, the note below was learned from other blogs
+> I failed in solving the other three problems, the note below according other [blogs](https://leetcode.cn/circle/discuss/33ZnsL/)
 
 
 
@@ -52,3 +52,7 @@ public:
 
 
 </details>
+
+
+
+
