@@ -95,6 +95,7 @@
 |       |-- class4
 |       |-- class5
 |       `-- class6
+|-- todo
 |-- tools
 |   `-- bin
 `-- tutorial
@@ -102,5 +103,5 @@
     |-- git
     `-- latex
 
-101 directories
+102 directories
  ```` 
