@@ -81,6 +81,7 @@
 |-- env-setup
 |   |-- build-lib
 |   `-- orb-slam
+|-- images
 |-- loginfo
 |-- markdown
 |-- math
@@ -103,5 +104,5 @@
     |-- git
     `-- latex
 
-102 directories
+103 directories
  ```` 

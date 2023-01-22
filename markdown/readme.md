@@ -43,7 +43,11 @@ int main(int argc,char** argv){
 }
 
 ````
+<!-- math test -->
+$a = b$
 
+<!-- image test -->
+[test](../images/slam-framework.png)
 </details>
 
 <details>
