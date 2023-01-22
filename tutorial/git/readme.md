@@ -5,9 +5,16 @@ git repos operation
 
 </summary>
 
-> git pull  ---upload file from memote repos
+# Most used!
+> git clone <url> <local folder name> Clone a repository into a new directory, <local folder name> can be omitted.
 
-> git add . ---
+> git pull  ---upload changed files from remote repos
 
-> git push  ---
+> git add . ---Add file contents to the index
+
+> git push  ---push to the remote branch
+
+### Used not that frequent?maybe:-)
+
+> git config --user.email... ---
 </details>
