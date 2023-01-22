@@ -31,12 +31,38 @@ public:
 <details>
 <summary>
 
-[Minimum Operations to MakeArray_Equal_II](https://leetcode.cn/contest/biweekly-contest-96/problems/minimum-operations-to-make-array-equal-ii/)
+[Minimum Operations to MakeArray Equal II](https://leetcode.cn/contest/biweekly-contest-96/problems/minimum-operations-to-make-array-equal-ii/)
 
 </summary>
 
 > I failed in solving the other three problems, the note below according other [blogs](https://leetcode.cn/circle/discuss/33ZnsL/)
 
+> first if k is 0 and nums1[i] != nums2[i] return -1, or delta = (nums1[i] - nums2[i]) is % k is not 0 return -1, else if delta > 0 pos += delta / k, else nag += delta / k
+
+```cpp
+class Solution {
+public:
+    using ll = long long;
+
+    long long minOperations(vector<int>& nums1, vector<int>& nums2, int k) {
+        int n = nums1.size();
+        ll neg = 0, pos = 0;
+
+        for(int i = 0; i < n; i ++){
+            ll delta = nums1[i] - nums2[i];
+            
+            if(k == 0 && delta != 0)return -1;
+            else {
+                if(delta%k)return -1;
+                neg += delta < 0? delta/k:0;
+                pos += delta > 0? delta/k:0;
+            }
+        }
+        return nag + pos == 0? pos:-1;
+
+    }
+};
+```
 
 
 </details>
@@ -47,12 +73,7 @@ public:
 
 [Maximum Subsequence Score](https://leetcode.cn/contest/biweekly-contest-96/problems/maximum-subsequence-score/)
 
-
 </summary>
 
 
 </details>
-
-
-
-
