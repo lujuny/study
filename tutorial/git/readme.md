@@ -16,5 +16,7 @@ git repos operation
 
 ### Used not that frequent?maybe:-)
 
-> git config --user.email... ---
+> git config --user.email... ---configure your info
+
+> git status ---check your repos status.
 </details>
