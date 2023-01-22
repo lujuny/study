@@ -66,9 +66,9 @@
 |   |           |-- 4
 |   |           |-- 6
 |   |           `-- 8
+|   |-- atcoder
+|   |-- codeforce
 |   |-- leetcode
-|   |   |-- atcoder
-|   |   |-- codeforce
 |   |   `-- contest
 |   |       `-- biweekly-96
 |   `-- zoj
