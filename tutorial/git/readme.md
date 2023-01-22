@@ -8,4 +8,6 @@ git repos operation
 > git pull  ---upload file from memote repos
 
 > git add . ---
+
+> git push  ---
 </details>

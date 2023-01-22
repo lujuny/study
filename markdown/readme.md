@@ -22,6 +22,27 @@
 
 > block test
 
+````cpp
+//code block
+/**
+ *
+ *Filename: readme.md
+ *Created in 2023/01/22 12:50:38
+ *Author: tabbleman
+ *
+ */
+#include <bits/stdc++.h>
+using namespace std;
+
+
+int main(int argc,char** argv){
+    cin.tie(0);
+    
+
+    return 0;
+}
+
+````
 
 </details>
 
