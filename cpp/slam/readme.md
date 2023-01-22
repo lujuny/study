@@ -36,14 +36,36 @@ ch1
 
     * > 第十二讲为地图构建(建图)
 
-    * > 第十三讲是工程实践，本人基于手边传感器魔改了一些，即[coolslam](https://github.com/Tabbleman/coolslam)
+    * > 第十三讲是工程实践，本人基于手边传感器魔改了一些，即[coolslam](https://github.com/Tabbleman/coolslam)ps:还未完成:-(
 
     * > 第十四讲介绍了一些非常好用的开源slam
- 
+ ---
 > 笔记中的数学表示：
 
 $a = b$
+---
+> 笔记中代码块表示：
+````cpp
 
+/**
+ *
+ *Filename: readme.md
+ *Created in 2023/01/22 15:31:52
+ *Author: tabbleman
+ *
+ */
+#include <bits/stdc++.h>
+using namespace std;
+
+
+int main(int argc,char** argv){
+    cin.tie(0);
+    
+
+    return 0;
+}
+
+````
 </details>
 <!--  -->
 <details>
