@@ -129,8 +129,10 @@ ch2
 
 </details>
 
-$$ pic_1, pic_2, \cdots, pic_n $$
+``md
 
+$$ pic_1, pic_2, \cdots, pic_n $$
+``
 
 [cmake 使用](../../tutorial/cmake/readme.md)
 
