@@ -129,7 +129,7 @@ ch2
 
 </details>
 
-``md
+``math
 
 $$ pic_1, pic_2, \cdots, pic_n $$
 ``
