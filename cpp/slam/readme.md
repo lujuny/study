@@ -1,4 +1,8 @@
+<details> 
+<summary>
+
 # slam14讲的笔记
+</summary>
 
 <details>
 <summary>
@@ -111,11 +115,13 @@ ch2
 
 ---
 
+## slam问题的数学描述
+
 [cmake 使用](../../tutorial/cmake/readme.md)
 
 
 </details>
-<!--  -->
+<!--======================-->
 <details>
 <summary>
 
@@ -236,6 +242,9 @@ ch13
 ch14
 
 </summary>
+
+
+</details>
 
 
 </details>
