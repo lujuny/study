@@ -7,7 +7,7 @@ git repos operation
 
 # Most used!
 
-> git clone <url> <local folder name> Clone a repository into a new directory, <local folder name> can be omitted.
+> git clone --- <url> <local folder name> Clone a repository into a new directory, <local folder name> can be omitted.
 
 > git add . ---Add file contents to the index
 
