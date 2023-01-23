@@ -129,11 +129,11 @@ ch2
 
 </details>
 
-``math
+```math
 
 $$ pic_1, pic_2, \cdots, pic_n $$
 
-``
+```
 
 [cmake 使用](../../tutorial/cmake/readme.md)
 
