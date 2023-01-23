@@ -106,7 +106,7 @@ ch2
 
 ---
 
-
+[cmake 使用](../../tutorial/cmake/readme.md)
 
 
 </details>
@@ -114,9 +114,11 @@ ch2
 <details>
 <summary>
 
-ch3
+ch3三维刚体运动
 
 </summary>
+
+> 作为一个三维生物：我可以通过我所在经纬度和海拔来描述我现在的位置，以及脸的朝向来描述我现在的位姿。
 
 
 </details>
