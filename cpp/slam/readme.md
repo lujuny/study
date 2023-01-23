@@ -122,18 +122,13 @@ ch2
 
 </summary>
 
-由于相机是一张一张拍的，那么传感器所传回的数据就是离散的数据
-
+由于相机是一张一张拍的，那么传感器所传回的数据就是离散的数据$ a = b $ 
 
 那么用x表示相机当前位置 
 
 </details>
 
-```math
 
-$$ pic_1, pic_2, \cdots, pic_n $$
-
-```
 
 [cmake 使用](../../tutorial/cmake/readme.md)
 
