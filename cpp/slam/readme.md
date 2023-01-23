@@ -124,7 +124,7 @@ ch2
 
 
 由于相机是一张一张拍的，那么传感器所传回的数据就是离散的数据
-$$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$$
+$$pic_1,pic_2,\cdots,pic_n$$
 
 
 
